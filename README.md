@@ -12,7 +12,7 @@ Libraries
   - if any
 
 Software
-  - ms (Hudson RR. Bioinformatics 2002. http://home.uchicago.edu/rhudson1/source/mksamples.html)
+  - ms (Hudson RR. Bioinformatics 2002. [link](http://home.uchicago.edu/rhudson1/source/mksamples.html))
   
 ## Contents
 
