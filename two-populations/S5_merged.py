@@ -257,4 +257,27 @@ def main(pop1_small, pop1_large, pop2_small, pop2_large,
 
 
 if __name__ == "__main__":
-    pass
+    ### modify
+
+    # initial value
+    pop1_small = 0
+    pop1_large = 100
+    pop2_small = 0
+    pop2_large = 100
+    replicate = 10000
+    theta = 20
+    fNr = 20
+    rsite = 200000
+    marker_size = 50
+
+    mrate = 0.1
+
+    save_dir = ""
+
+    MAF = 0.1
+
+    AP_num = "m"
+    file_name = "S5_merged_MAF{}".format(int(MAF * 100))
+
+    main(pop1_small, pop1_large, pop2_small, pop2_large, replicate, theta, fNr, mrate, rsite, MAF, marker_size,
+         save_dir, AP_num, file_name)
