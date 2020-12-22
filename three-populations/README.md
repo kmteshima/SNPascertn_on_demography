@@ -29,9 +29,9 @@
         main(lsam, n1, n2, n3, msfile, save_dir, file_name)
         ```
         - lsam: the number of individuals sampled from each population as a typing sample in (1)-(3).
-        - n1: the number of individuals sampled from population 1 as a typing sample in (1)-(3).
-        - n2: the number of individuals sampled from population 2 as a typing sample in (1)-(3).
-        - n3: the number of individuals sampled from population 3 as a typing sample in (1)-(3).
+        - n1: the number of individuals sampled from population 1 in (1)-(3).
+        - n2: the number of individuals sampled from population 2 in (1)-(3).
+        - n3: the number of individuals sampled from population 3 in (1)-(3).
         - msfile: input ms data
         - save_dir: directory of output file
         - file_name: name of output file
