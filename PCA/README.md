@@ -29,7 +29,7 @@ Text and scripts in this folder explains how to perform *ms*, apply typing proce
 3. Conduct PCA by running EIGENSTRAT with scripts 6-9 depending on the ascertainment scheme.
     1. Set the input filename in the head of the script.
        1. eigenfile: input file name. This name should be the same as 'eigenfile' in the previous script.
-       2. indfile: individual file name. This name should be the same as 'eigenfile' in the previous script.
+       2. indfile: individual file name. 
     2. execute the script.
        - Results of PCA will be saved as pdf file.
        - Note: Scripts 6-9 use EIGENSOFT. py scripts call run_smarpca.perl to perform PCA. run_smarpca.perl uses smartpca.perl script distributed in EIGENSOFT package. Users should appropriately set the path to 'smartpca.perl' in run_smarpca.perl.
