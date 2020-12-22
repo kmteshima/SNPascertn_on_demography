@@ -274,4 +274,24 @@ def main(nsam_discovery, nsam_type, MAF, marker_size, msfile, save_dir, file_nam
     df.to_csv("{}/asc1_stats_{}.csv".format(save_dir, file_name))
 
 if __name__ == "__main__":
-    pass
+    ### modify
+
+    # initial value
+    theta = 20  # 20
+    fNr = 20  # 20
+    rsite = 200000
+    marker_size = 50
+
+    nsam_discovery = [100, 0, 0]
+    nsam_type = [100, 100, 100]
+
+    MAF = 0.1
+
+    # input data
+    msfile = "Is3_single.txt"
+
+    # save directory
+    save_dir = ""
+    file_name = "Is3_MAF{}".format(int(MAF * 100))
+
+    main(nsam_discovery, nsam_type, MAF, marker_size, msfile, save_dir, file_name)

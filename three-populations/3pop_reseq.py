@@ -183,4 +183,19 @@ def main(lsam, n1, n2, n3, msfile, save_dir, file_name):
     df.to_csv("{}/noasc_stats_{}.csv".format(save_dir, file_name))
 
 if __name__ == "__main__":
-    pass
+    ### modify
+
+    # initial value
+    lsam = 100
+    n1 = 100
+    n2 = 100
+    n3 = 100
+
+    # input data
+    msfile = "Is3_reseq.txt"
+
+    # save directory
+    save_dir = ""
+    file_name = "Is3"
+
+    main(lsam, n1, n2, n3, msfile, save_dir, file_name)
