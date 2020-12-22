@@ -1,0 +1,18 @@
+
+three island model
+ms nsam 10000 -t 20 -r 20 20000 - I 3 n1 n2 n3 0.3 
+
+stepping stone model
+ms nsam 10000 -t 20 -r 20 20000 -I 3 n1 n2 n3 -m 1 2 0.3 -m 2 1 0.3 -m 2 3 0.3 -m 3 2 0.3 
+
+split model 
+ms nsam 10000 -t 20 -r 20 20000 -I 3 n1 n2 n3 -en 0.29999 2 0.2 -ej 0.3 2 1 -en 0.19999 3 0.1 -ej 0.2 3 2 
+
+Description of variable:
+nsam: Total number of samples
+n1: number of individuals in population 1 samples
+n2: number of individuals in population 2 samples
+n3: number of individuals in population 3 samples
+
+Please see the manuscript for a detailed explanation and the actual values used in this project.
+

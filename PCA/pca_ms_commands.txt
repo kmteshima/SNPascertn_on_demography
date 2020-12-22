@@ -1,0 +1,4 @@
+
+ms nsam howmany -t 20 -r 20 20000 -I 3 n1 n2 n3 0.3 > ms.txt
+
+Please see the manuscript for a detailed explanation and the actual values used in this project.
