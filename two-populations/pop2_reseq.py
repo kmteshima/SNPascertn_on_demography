@@ -174,4 +174,20 @@ def main(lsam, n1, n2, msfile, save_dir, file_name):
     df.to_csv("{}/noasc_stats_{}.csv".format(save_dir, file_name))
 
 if __name__ == "__main__":
-    pass
+    ### modify
+
+    lsam = 100
+    n1 = 100
+    n2 = 100
+
+    mrate = 0.1
+    MAF = 0.1
+
+    # input data
+    msfile = "Is2_reseq_mrate01.txt"
+
+    # save directory
+    save_dir = ""
+    file_name = "Is2_reseq_MAF{}".format(int(MAF * 100))
+
+    main(lsam, n1, n2, msfile, save_dir, file_name)

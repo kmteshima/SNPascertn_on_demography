@@ -268,4 +268,24 @@ def main(nsam_discovery, nsam_type, MAF, marker_size, msfile, save_dir, file_nam
     df.to_csv("{}/asc2_stats_{}.csv".format(save_dir, file_name))
 
 if __name__ == "__main__":
-    pass
+    ### modify
+
+    theta = 20  # 20
+    fNr = 20  # 20
+    rsite = 200000
+    marker_size = 50
+
+    nsam_discovery = [100, 100]
+    nsam_type = [100, 100]
+
+    mrate = 0.1
+    MAF = 0.1
+
+    # input data
+    msfile = "Is2_merged_mrate01.txt"
+
+    # save directory
+    save_dir = ""
+    file_name = "Is2_MAF{}".format(int(MAF * 100))
+
+    main(nsam_discovery, nsam_type, MAF, marker_size, msfile, save_dir, file_name)
