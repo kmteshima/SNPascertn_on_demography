@@ -10,6 +10,11 @@ import random
 import re
 import glob
 
+#msdir = "../data/ms"
+#eigendir = "../data/eigen_input"
+msdatafile = "ms.txt"
+eigenfile = "Is3_single.txt"
+
 
 def parse_ms_data(filename):
 
@@ -176,8 +181,7 @@ def typing(msdata, nsam_discovery, nsam_type, snp_marker):
     # return list of list of int
     return typed
 
-msdir = "../data/ms"
-eigendir = "../data/eigen_input"
+
 
 nsam_discovery = [100,0,0]
 nsam_type = [100,100,100]
@@ -185,9 +189,9 @@ maf_list=[0.05]
 #maf_list = [0,0.01,0.05,0.1,0.2]
 #marker_size = 50
 
-for msfile in glob.glob("ms.txt"):
+for msfile in glob.glob(msdatafile):
     for MAF in maf_list:
-        eigenfile = "Is3_single.txt"
+        #eigenfile = "Is3_single.txt"
 
         with open("{}".format(eigenfile), "w") as f:
 

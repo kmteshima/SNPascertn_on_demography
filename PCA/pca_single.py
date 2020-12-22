@@ -3,6 +3,8 @@ import re
 import numpy as np
 import pprint
 
+eigenfile = "Is3_single.txt"
+indfile = "mssamples.ind"
 
 def run_command(cmd):
 
@@ -123,7 +125,7 @@ n2 = 50
 n3 = 50
 nind = 150
 
-for rep in parse_ms_data("Is3_single.txt"):
+for rep in parse_ms_data(eigenfile):
 
     #
     # .geno
@@ -155,7 +157,7 @@ for rep in parse_ms_data("Is3_single.txt"):
 
     break
 
-with open("mssamples.ind", "w") as f:
+with open(indfile, "w") as f:
     for i in range(nind):
 
         if i < n1:
