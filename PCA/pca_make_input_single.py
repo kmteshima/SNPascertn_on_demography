@@ -216,7 +216,7 @@ for msfile in glob.glob(X):
 
                 marker_pos = [position[i] for i in snp_marker]
 
-                
+
                 marker_pos = " ".join(marker_pos)
 
                 print("", file=f)

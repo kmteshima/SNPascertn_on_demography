@@ -10,6 +10,9 @@ import random
 import re
 import glob
 
+msdatafile = "ms.txt"
+eigenfile = "Is3_reseq.txt"
+
 def parse_ms_data(filename):
 
     # regular expressions

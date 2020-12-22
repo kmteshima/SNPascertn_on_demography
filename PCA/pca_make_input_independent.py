@@ -10,6 +10,8 @@ import random
 import re
 import glob
 
+msdatafile = "ms.txt"
+eigenfile = "Is3_independent.txt"
 
 def parse_ms_data(filename):
 
@@ -217,7 +219,7 @@ for msfile in glob.glob("ms.txt"):
 
                 marker_pos = [position[i] for i in snp_marker]
 
-                #文字列変換
+
                 marker_pos = " ".join(marker_pos)
 
                 print("", file=f)
