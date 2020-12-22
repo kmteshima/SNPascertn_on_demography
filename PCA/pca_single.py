@@ -4,7 +4,7 @@ import numpy as np
 import pprint
 
 eigenfile = "Is3_single.txt"
-indfile = "mssamples.ind"
+indfile = "single_samples.ind"
 
 def run_command(cmd):
 

@@ -189,7 +189,7 @@ maf_list=[0.05]
 #maf_list = [0,0.01,0.05,0.1,0.2]
 #marker_size = 50
 
-for msfile in glob.glob(msdatafile):
+for msfile in glob.glob(X):
     for MAF in maf_list:
         #eigenfile = "Is3_single.txt"
 
@@ -216,7 +216,7 @@ for msfile in glob.glob(msdatafile):
 
                 marker_pos = [position[i] for i in snp_marker]
 
-                #文字列変換
+                
                 marker_pos = " ".join(marker_pos)
 
                 print("", file=f)
