@@ -50,7 +50,7 @@
         - A file with "stats" in the file name: $\pi_w$ and $pi_b for each replicate.
 3. typing process
    - scripts
-      - 5 S5_single.py  
+      - S5_single.py  
       - S5_merged.py  
       - S5_Independent.py  
    - usage
