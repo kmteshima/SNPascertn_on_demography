@@ -1,10 +1,7 @@
 # import module
-import subprocess
 import re
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import random
 
 def parse_ms_data(filename):
