@@ -17,10 +17,10 @@
 1. *ms* simulation
    - Perform *ms* as described in 2pop_ms_command.txt.
 2. ascertainment process
-   - scripts
-      1. 2pop_single.py reproduces the single population scheme
-      2. 2pop_Independent.py reproduces the independent panel scheme
-      3. 2pop_merged.py reproduces the merged panel scheme
+   - scripts  
+      1. 2pop_single.py reproduces the single population scheme  
+      2. 2pop_Independent.py reproduces the independent panel scheme  
+      3. 2pop_merged.py reproduces the merged panel scheme  
       4. 2pop_reseq.py reproduces the re-sequence
    - usage
       - scripts 1-3: please modify arguments of the 'main' function in the scripts, and execute.
