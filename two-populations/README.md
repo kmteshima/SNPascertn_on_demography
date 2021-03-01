@@ -11,11 +11,12 @@
 5. S5_single.py
 6. S5_merged.py
 7. S5_Independent.py
+8. supple_ms_command.txt
 
 ## How to use
 
 1. *ms* simulation
-   - Perform *ms* as described in 2pop_ms_command.txt.
+   - Perform *ms* as described in 2pop_ms_command.txt and supple_ms_command.txt.
 2. ascertainment process
    - scripts  
       - 2pop_single.py reproduces the single population scheme  
